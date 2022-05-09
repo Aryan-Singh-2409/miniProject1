@@ -1,0 +1,207 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#title {
+    background-color: rgb(136, 38, 38);
+    color: white;
+
+}
+
+h1 {
+    font-family: "Anton";
+    color: white;
+    font-size: 2.75em;
+    line-height: 1.5;
+    border-left: auto;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 0 0 0 4.5rem;
+    /* color: grey; */
+}
+
+/* .ml-auto{
+    padding-left: 38rem;
+} */
+/* the download buttons for app store and play store */
+.download-button {
+    margin: 5% 0% 5%;
+}
+
+/* title image */
+.title-image {
+    width: 100%;
+    /* transform: rotate(25deg); */
+    /* position: absolute; */
+    /* z-index: -1; */
+}
+
+/* features section */
+#features {
+    padding: 7% 15%;
+    /* background-color: white; */
+    position: relative;
+    /* z-index: 1; */
+}
+
+.feature-box {
+    text-align: center;
+    font-size: 16px;
+    padding: 5%;
+}
+
+h3 {
+    font-family: Bungee;
+    /* color: lightgray; */
+}
+
+.perks:hover{
+    color: black;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+/* to color font awesome */
+.icon {
+    /* color: #ef8172; */
+    background-color: rgb(250, 246, 246);
+    margin-bottom: 1 rem;
+}
+
+/* .feature-description:hover { */
+    /* color: gray; */
+    /* background-color: lightgray; */
+/* } */
+
+#pricing-heading {
+    padding-left: 2.5%;
+    /* padding-bottom: 2rem; */
+    font-family: Bungee;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.pricing-list-items {
+    color: grey;
+    font-size: size 10px;
+}
+
+/* testimonial */
+#testimonials {
+    padding: 3% 10% 3%;
+    text-align: center;
+    /* background-color: #ff4c68; */
+    background-color: rgb(136, 38, 38);
+    color: white;
+
+
+}
+
+h2 {
+    font-family: Anton;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+.living-room-tv {
+    padding: 7% 10% 7%;
+    width: 80%;
+    height: 50%;
+    border-radius: 100;
+}
+
+#press {
+    text-align: center;
+    padding-bottom: 3%;
+    margin: 5px 20px 20px;
+    padding-bottom: 5%;
+    margin-left: 5rem;
+    /* background-color: #ff4c68;  */
+}
+
+.press-heading {
+    text-align: center;
+    color: rgb(136, 38, 38);;
+}
+
+.media {
+    width: 40%;
+    border-radius: 100%;
+    margin: 20px 20px 50px;
+
+}
+
+/* customer feedback in bootstrap carousel */
+
+.customer-feedback {
+    color: rgb(199, 198, 198);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    color: black;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+
+#pricing-heading {
+    text-align: center;
+    background-color: rgb(136, 38, 38);
+    color: white;
+}
+
+.pricing-button:hover {
+    color: white;
+    background-color: rgb(136, 38, 38);
+}
+
+@media (min-width: 1028px) {
+    .title-image {
+        position: static;
+        text-align: center;
+    }
+}
+
+/* CTA section */
+#cta {
+    background-color: rgb(136, 38, 38);
+    color: white;
+    text-align: center;
+    padding: 3% 15% 3%;
+
+
+}
+
+.ctaheading {
+
+    font-family: Montserrat-Black;
+    font-size: 24px;
+}
+
+/* footer */
+#footer {
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px 20px;
+}
+
+.social-icon:hover {
+    color:rgb(136, 38, 38);
+}
